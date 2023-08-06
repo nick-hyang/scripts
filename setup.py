@@ -27,7 +27,7 @@ ENTRY_POINTS = {
 }
 
 # 读取 README 文件内容作为 long_description
-with open("README.md", "r", encoding="utf-8") as fh:
+with open("Readme.md", "r", encoding="utf-8") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setup(
